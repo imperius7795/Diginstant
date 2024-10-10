@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Digital Product</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            background: linear-gradient(135deg, #05DDFF, #9F07DA);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            color: white;
+        }
+
+        /* Main Container */
+        .container {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Fade-in Animation */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        /* Heading */
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Paragraph */
+        p {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+        }
+
+        /* Button */
+        .buy-now-btn {
+            background-color: #FF6B6B;
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.3em;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .buy-now-btn:hover {
+            background-color: #FF3D3D;
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        footer {
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Amazing Digital Product</h1>
+        <p>Get this product now for an exclusive price! Instant access upon purchase.</p>
+        <a href="https://payu.com/payment-page-url" target="_blank">
+            <button class="buy-now-btn">Buy Now</button>
+        </a>
+    </div>
+    <footer>Secure Payment | 100% Satisfaction Guarantee</footer>
+</body>
+</html>
